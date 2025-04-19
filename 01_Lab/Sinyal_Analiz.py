@@ -1,4 +1,4 @@
-1. Temel Sinyal Oluşturma
+"""1. Temel Sinyal Oluşturma
 Fs = 1000;             % Örnekleme frekansı (Hz)
 t = 0:1/Fs:1-1/Fs;     % Zaman vektörü (1 saniyelik)
 f = 10;                % Frekans (Hz)
@@ -128,4 +128,4 @@ d = designfilt('lowpassfir', 'PassbandFrequency', 30, ...
 x = sin(2*pi*10*t) + sin(2*pi*60*t);
 y = filter(d, x);
 plot(t, y);
-title('FIR Filtre ile Gürültü Giderme');
+title('FIR Filtre ile Gürültü Giderme');"""
