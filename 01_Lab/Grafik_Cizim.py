@@ -1,4 +1,4 @@
-1. Basit 2D Grafik (Çizgi Grafik)
+"""1. Basit 2D Grafik (Çizgi Grafik)
 x = 0:0.1:10;
 y = sin(x);
 plot(x, y);
@@ -131,4 +131,4 @@ title('Logaritmik Grafik (X Ekseni)');
 x = 0:0.1:5;
 y = exp(x);
 plot(x, y);
-title('Exponential Grafik');
+title('Exponential Grafik');"""
