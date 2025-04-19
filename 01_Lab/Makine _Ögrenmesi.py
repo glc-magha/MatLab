@@ -1,4 +1,4 @@
-1. Veri Kümesi Yükleme ve İnceleme
+"""1. Veri Kümesi Yükleme ve İnceleme
 load fisheriris;  % Fisher iris veri setini yükle
 disp(head(meas)); % Veri setinin ilk birkaç satırını görüntüle
 
@@ -128,4 +128,4 @@ testData = meas(test(cv), :);
 Mdl = fitcnb(meas, species, 'Distribution', 'kernel');
 cvMdl = crossval(Mdl);
 L = kfoldLoss(cvMdl);
-disp(['Kfold Loss: ', num2str(L)]);
+disp(['Kfold Loss: ', num2str(L)]);"""
